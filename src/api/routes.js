@@ -11,3 +11,5 @@ module.exports = () => {
 
   return app;
 };
+const gachaRoutes = require('./components/gacha/gacha.routes');
+router.use('/gacha', gachaRoutes);
