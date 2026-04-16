@@ -1,4 +1,4 @@
-const Gacha = require('../models/gacha.model');
+const Gacha = require('../models/modelgacha');
 
 function maskName(name) {
   return name

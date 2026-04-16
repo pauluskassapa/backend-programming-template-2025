@@ -1,5 +1,5 @@
 const express = require('express');
-const { getHistory } = require('../../../controllers/history.controller');
+const { getHistory } = require('../../../controllers/kontrol.riwayat');
 
 module.exports = (app) => {
   const router = express.Router();

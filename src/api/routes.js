@@ -1,12 +1,12 @@
 const express = require('express');
 
 const books = require('./components/books/books-route');
-const users = require('./components/users/users-route');
-const gacha = require('./components/gacha/gacha-route');
+const users = require('./components/users/aluruser');
+const gacha = require('./components/gacha/alurgacha');
 
-const history = require('./components/history/history-route');
-const reward = require('./components/reward/reward-route');
-const winner = require('./components/winner/winner-route');
+const history = require('./components/history/alurriwayat');
+const reward = require('./components/reward/alurhadiah');
+const winner = require('./components/winner/alurpemenang');
 
 module.exports = () => {
   const app = express.Router();

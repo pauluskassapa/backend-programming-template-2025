@@ -1,5 +1,5 @@
 const express = require('express');
-const { getWinners } = require('../../../controllers/winner.controller');
+const { getWinners } = require('../../../controllers/kontrol.pemenang');
 
 module.exports = (app) => {
   const router = express.Router();

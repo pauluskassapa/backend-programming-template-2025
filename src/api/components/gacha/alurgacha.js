@@ -1,5 +1,5 @@
 const express = require('express');
-const { gacha } = require('../../../controllers/gacha.controller');
+const { gacha } = require('../../../controllers/kontrol.gacha');
 
 module.exports = (app) => {
   const router = express.Router();

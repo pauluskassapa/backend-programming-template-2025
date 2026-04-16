@@ -3,8 +3,6 @@
 Project ini dibuat untuk tugas backend programming menggunakan Node.js, Express, dan MongoDB.
 Aplikasi ini mensimulasikan sistem gacha sederhana dengan beberapa fitur tambahan.
 
----
-
 ## Fitur
 
 ### Fitur utama
@@ -48,8 +46,6 @@ MONGO_URI=your_mongodb_connection
 npm run dev
 ```
 
----
-
 ## Endpoint
 
 ### 1. Gacha
@@ -80,15 +76,11 @@ atau:
 }
 ```
 
----
-
 ### 2. History
 
 GET `/api/history?user=Paulus`
 
 Digunakan untuk melihat riwayat gacha dari user tertentu.
-
----
 
 ### 3. Rewards
 
@@ -96,15 +88,11 @@ GET `/api/rewards`
 
 Digunakan untuk melihat daftar reward beserta sisa kuota yang tersedia.
 
----
-
 ### 4. Winners
 
 GET `/api/winners`
 
 Digunakan untuk melihat user yang berhasil mendapatkan hadiah (nama disensor).
-
----
 
 ## Aturan
 
@@ -113,15 +101,7 @@ Digunakan untuk melihat user yang berhasil mendapatkan hadiah (nama disensor).
 - Jika kuota reward habis, reward tidak bisa didapatkan
 - Jika tidak mendapatkan hadiah, maka akan muncul pesan "Tidak mendapatkan hadiah"
 
----
-
 ## Catatan
 
 - Jika response kosong, berarti belum ada data di database
 - Perlu melakukan gacha beberapa kali untuk melihat data pada history atau winners
-
----
-
-## Author
-
-Paulus

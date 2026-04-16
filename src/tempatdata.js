@@ -2,7 +2,7 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 const mongoose = require('mongoose');
-const Reward = require('./models/reward.model');
+const Reward = require('./models/modelhadiah');
 
 console.log('URI:', process.env.MONGO_URI);
 

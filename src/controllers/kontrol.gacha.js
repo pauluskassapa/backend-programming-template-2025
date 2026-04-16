@@ -1,5 +1,5 @@
-const Gacha = require('../models/gacha.model');
-const Reward = require('../models/reward.model');
+const Gacha = require('../models/modelgacha');
+const Reward = require('../models/modelhadiah');
 
 exports.gacha = async (req, res) => {
   try {

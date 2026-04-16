@@ -1,4 +1,4 @@
-const Gacha = require('../models/gacha.model');
+const Gacha = require('../models/modelgacha');
 
 exports.getHistory = async (req, res) => {
   try {

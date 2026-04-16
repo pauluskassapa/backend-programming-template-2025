@@ -1,7 +1,7 @@
 const express = require('express');
 
 const router = express.Router();
-const { gacha } = require('../controllers/gacha.controller');
+const { gacha } = require('../controllers/kontrol.gacha');
 
 router.post('/', gacha);
 
